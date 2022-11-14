@@ -1,0 +1,19 @@
+.main-jumbo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)),
+    url(https://thumbs.dreamstime.com/b/doctor-man-stethoscope-hospital-84232406.jpg);
+  background-size: cover;
+}
+.home-card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.home-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px;
+  transition: 1s;
+}
+/* .my-accord h3 {
+  color: rgb(238, 196, 203) !important;
+} */
+/* .acc-btn {
+  background-color: rgb(247, 225, 247) !important;
+  color: rgb(167, 137, 137) !important;
+} */

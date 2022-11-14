@@ -1,0 +1,53 @@
+.brand-img {
+  width: 60px;
+  height: 70px;
+  margin-left: 15px;
+}
+
+.nav-link {
+  color: rgb(250, 164, 178) !important;
+}
+.nav-link:hover {
+  color: rgb(255, 233, 237) !important;
+  border-bottom: 1px solid pink;
+}
+
+.h2 {
+  position: relative;
+  font-size: 1.5em;
+  letter-spacing: 15px;
+  color: #c952c9;
+  text-transform: uppercase;
+  width: 100%;
+  text-align: center;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+
+  line-height: 0.7em;
+  outline: none;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0%,
+  18%,
+  20%,
+  50.1%,
+  60%,
+  65.1%,
+  80%,
+  90%,
+  92% {
+    color: #682262;
+    box-shadow: none;
+  }
+  18.1%,
+  20.1%,
+  30%,
+  50%,
+  60.1%,
+  100% {
+    color: #fff;
+    box-shadow: 0 0 10px #e77bd9, 0 0 20px #eda6ff, 0 0 40px #e081d8,
+      0 0 80px #db5ad1, 0 0 160px #d659d6;
+  }
+}

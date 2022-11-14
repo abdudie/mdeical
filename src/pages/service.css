@@ -1,0 +1,13 @@
+.service-jumbo {
+  background-image: url(https://wallpaper.dog/large/10791689.jpg);
+  background-size: cover;
+  color: rgb(252, 212, 218) !important;
+}
+
+.my-card {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.my-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px;
+  transition: 1s;
+}

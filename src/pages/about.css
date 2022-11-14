@@ -1,0 +1,43 @@
+.car-img {
+  height: 50vw;
+  border-radius: 20px;
+}
+.about-card {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.5)
+  );
+}
+.hr-tag {
+  width: 50%;
+}
+.level-num {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border: 1px solid #a8a8a8;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.level-num .num {
+  font-size: 80px;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 1)
+  );
+
+  display: inline-block;
+  line-height: 75px;
+  margin-top: -20px;
+  padding: 0 10px;
+  color: #ff61e5;
+}
+.btn {
+  background-color: #ffe4fb;
+  color: #585858;
+}
+.about-jumbo {
+  background-image: url(https://wallpaper.dog/large/10791689.jpg);
+  background-size: cover;
+  color: rgb(252, 212, 218) !important;
+}
